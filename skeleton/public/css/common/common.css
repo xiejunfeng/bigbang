@@ -1,0 +1,198 @@
+ul,li{margin:0;padding:0}
+ul{list-style: none}
+body{font-family:"Microsoft Yahei","微软雅黑",Arial,sans-serif}
+h1, h2, h3, h4, h5, h6{font-family:"Microsoft Yahei","微软雅黑",Arial,sans-serif}
+.wapper{background: #efefef}
+.ck-btn{
+	color: #fff;text-decoration:none;background-color:#ffa40d;display:inline-block;
+	background-image: -webkit-linear-gradient(bottom, #ffa40d 0%, #ffc15a 100%);
+	box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.45);
+	padding: 5px 20px;border-radius: 3px;cursor: pointer;text-decoration: none
+}
+.ck-btn:hover{color:#FFFFFF;background-color:#ffad26;text-decoration:none;
+	background-image: -webkit-linear-gradient(bottom, #ffad26 0%, #ffca73 100%)
+}
+
+.normal-btn{background-color:#e4e4e4;border:1px solid rgba(0, 0, 0, 0.07);padding: 4px 8px 4px;color: #787878;display: inline-block;text-align: center;text-decoration: none;cursor: pointer}
+.normal-btn:hover{background-color:rgba(253,108,11,.7);color: #FFFFFF;text-decoration: none}
+
+
+.normal-input{height:28px;outline:none;border: 1px solid #ccc;padding: 4px 5px;
+box-sizing:content-box;
+box-shadow:0px 3px 3px #f2f2f2 inset;
+border-radius: 2px}
+.normal-input:focus{box-shadow:0px 0px 6px #e2e2e2 inset}
+
+
+.normal-textarea{
+	outline:none;border: 1px solid #ccc;padding: 4px 5px;
+	box-shadow:0px 3px 3px #f2f2f2 inset;
+	border-radius: 2px
+}
+.normal-textarea:focus{box-shadow:0px 0px 6px #e2e2e2 inset}
+
+.ck-line{height: 3px;border-top: 1px solid #D5D5D5;border-bottom: 1px solid #D5D5D5}
+.ck-line:after{position: relative;z-index: 2;width:60px;height:5px;top:-1px;left:50%;display:block;margin-left:-30px;content: "";background-color: #2c98e0;}
+/*引号*/
+.quote-l{line-height:1;background: url(../../images/card_quotel.v1.svg) no-repeat;background-size:6px auto;}
+.quote-r{background: url(../../images/card_quoter.v1.svg) right center no-repeat;background-size:6px auto;}
+q{line-height: 1.4;font-style: normal;padding: 0 6px;word-wrap: break-word;word-break: break-word}
+q:before, q:after{content:"\00200B";}
+
+.ev-star,.star-light{width: 75px;height: 16px;display: block}
+.ev-star,.star-light{background: url('../../images/star.png') no-repeat;}
+.ev-star{background-position: -75px 0}
+.star-light{background-position: 0 0}
+.star-zero .star-light{width: 0%}
+.star-one .star-light{width: 20%}
+.star-two .star-light{width: 40%}
+.star-three .star-light{width: 60%}
+.star-four .star-light{width: 80%}
+.star-five .star-light{width: 100%}
+
+.left{float: left}
+.right{float: right}
+
+
+
+
+
+
+
+
+.ms-button {
+	display: inline-block;min-height: 30px;
+
+	padding: 0 12px;margin: 0;border: none;
+
+	background: #eeeeee;line-height: 30px;font-size: 13px;
+	
+	color: #444444;	letter-spacing: normal;
+	
+	cursor:pointer;	
+	
+
+}
+/* Required for `a` elements */
+a.ms-button {
+	-moz-box-sizing: border-box;	box-sizing: border-box;	
+	vertical-align: middle;
+	text-decoration: none;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ */
+.ms-button:hover, .ms-button:focus {
+	background-color: #f5f5f5;	color: #444444;	outline: none;
+	/* 2 */
+
+}
+/* Active */
+.ms-button:active, .ms-button.ms-active {
+	background-color: #dddddd;	color: #444444;
+}
+/* Color modifiers
+ ========================================================================== */
+/*
+ * Modifier: `ms-button-primary`
+ */
+.ms-button-primary {
+	background-color: #00a8e6;	color: #ffffff;
+}
+/* Hover */
+.ms-button-primary:hover, .ms-button-primary:focus {
+	background-color: #35b3ee;	color: #ffffff;
+}
+/* Active */
+.ms-button-primary:active, .ms-button-primary.ms-active {
+	background-color: #0091ca;	color: #ffffff;
+}
+/*
+ * Modifier: `ms-button-success`
+ */
+.ms-button-success {
+	background-color: #8cc14c;	color: #ffffff;
+}
+/* Hover */
+.ms-button-success:hover, .ms-button-success:focus {
+	background-color: #8ec73b;	color: #ffffff;
+}
+/* Active */
+.ms-button-success:active, .ms-button-success.ms-active {
+	background-color: #72ae41;	color: #ffffff;
+}
+
+
+.ms-button-normal{
+	background-color: rgba(253,108,11,.7);	color: #ffffff;
+}
+.ms-button-normal:hover, .ms-button-normal:focus{
+	background-color: rgb(253,108,11);	color: #ffffff;
+}
+.ms-button-normal:active, .ms-button-normal.ms-active {
+	background-color: rgb(253,10,0);	color: #ffffff;
+}
+/*
+ * Modifier: `ms-button-danger`
+ */
+.ms-button-danger {
+	background-color: #da314b;	color: #ffffff;
+}
+/* Hover */
+.ms-button-danger:hover, .ms-button-danger:focus {
+	background-color: #e4354f;	color: #ffffff;
+}
+/* Active */
+.ms-button-danger:active, .ms-button-danger.ms-active {
+	background-color: #c91032;	color: #ffffff;
+}
+/* Disabled state
+ * Overrides also the color modifiers
+ ========================================================================== */
+/* Equal for all button types */
+.ms-button:disabled {
+	background-color: #f5f5f5;	color: #999999;
+}
+/* Modifier: `ms-button-link`
+ ========================================================================== */
+/* Reset */
+.ms-button-link, .ms-button-link:hover, .ms-button-link:focus, .ms-button-link:active, .ms-button-link.ms-active, .ms-button-link:disabled {
+	display: inline;	border: none;	background: none;
+}
+/* Color */
+.ms-button-link {
+	color: #0077dd;
+}
+.ms-button-link:hover, .ms-button-link:focus, .ms-button-link:active, .ms-button-link.ms-active {
+	color: #005599;	text-decoration: underline;
+}
+.ms-button-link:disabled {
+	color: #999999;
+}
+/* Focus */
+.ms-button-link:focus {
+	outline: 1px dotted;
+}
+/* Size modifiers
+ ========================================================================== */
+.ms-button-mini {
+	min-height: 20px;padding: 0 6px;line-height: 20px;font-size: 11px;
+}
+.ms-button-small {
+	min-height: 25px;padding: 0 10px;line-height: 25px;	font-size: 12px;
+}
+.ms-button-large {
+	min-height: 40px;padding: 0 15px;line-height: 40px;	font-size: 16px;
+}
+
+/* border modifiers
+ *=============================================================
+ */
+
+.ms-button-conner{
+	border-radius: 3px;
+}
+
+
